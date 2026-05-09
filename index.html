@@ -354,11 +354,11 @@
       percent.textContent = value + '%';
       bar.style.width = value + '%';
       if (value >= 100) clearInterval(timer);
-    }, 30);
+    }, 35);
 
     // Continue buttons
     document.getElementById('skip1').addEventListener('click', () => show('screen2'));
-    setTimeout(() => show('screen2'), 15000);
+    setTimeout(() => show('screen2'), 5200);
 
     // Step 2 reveal logic
     const texts = [
