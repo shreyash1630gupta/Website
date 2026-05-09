@@ -354,7 +354,7 @@
       percent.textContent = value + '%';
       bar.style.width = value + '%';
       if (value >= 100) clearInterval(timer);
-    }, 35);
+    }, 30);
 
     // Continue buttons
     document.getElementById('skip1').addEventListener('click', () => show('screen2'));
@@ -364,7 +364,7 @@
     const texts = [
       'I messed up… and I’m really sorry for that.',
       'I promise I’ll be better for you.',
-      '💖'
+      '🫂'
     ];
     const buttons = [...document.querySelectorAll('#screen2 .reveal-btn')];
     const next2 = document.getElementById('next2');
